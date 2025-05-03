@@ -4,6 +4,7 @@ public class ControlaJogador : MonoBehaviour
 {
     public float velocidade = 10f;
     private Animator animator;
+    private Vector3 direcao;
 
     void Start()
     {
@@ -18,8 +19,11 @@ public class ControlaJogador : MonoBehaviour
         float eixoZ = Input.GetAxis("Vertical");
 
         // Calcula a direção do movimento
-        Vector3 direcao = new Vector3(eixoX, 0, eixoZ);
+        direcao = new Vector3(eixoX, 0, eixoZ);
+    }
 
+    void FixedUpdate()
+    {
         // Movimenta o jogador
         Mover(direcao);
 
@@ -29,7 +33,9 @@ public class ControlaJogador : MonoBehaviour
 
     private void Mover(Vector3 direcao)
     {
-        transform.Translate(direcao * velocidade * Time.deltaTime, Space.World);
+        GetComponent<Rigidbody>().MovePosition
+        (GetComponent<Rigidbody>().position +
+        (direcao * velocidade * Time.deltaTime));
     }
 
     private void AtualizarAnimacao(Vector3 direcao)
