@@ -1,0 +1,10 @@
+using UnityEngine;
+
+public class ControlaJogador : MonoBehaviour
+{
+    // Update is called once per frame
+    void Update()
+    {
+        transform.Translate(Vector3.forward);
+    }
+}
