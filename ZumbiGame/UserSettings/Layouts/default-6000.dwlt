@@ -43,7 +43,7 @@ MonoBehaviour:
     width: 2560
     height: 997
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Scene
   m_RootView: {fileID: 5}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -243,8 +243,8 @@ MonoBehaviour:
     y: 0
     width: 620
     height: 941
-  m_MinSize: {x: 276, y: 76}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -269,8 +269,8 @@ MonoBehaviour:
     y: 0
     width: 515
     height: 941
-  m_MinSize: {x: 202, y: 226}
-  m_MaxSize: {x: 4002, y: 4026}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -449,7 +449,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1117,9 +1117,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -23.329998, y: 1.23348, z: -16.54149}
+    m_Target: {x: -22.647272, y: 2.901947, z: -17.144611}
     speed: 2
-    m_Value: {x: -23.329998, y: 1.23348, z: -16.54149}
+    m_Value: {x: -22.647272, y: 2.901947, z: -17.144611}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1165,13 +1165,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.033189733, y: 0.95288205, z: -0.27949205, w: -0.11315769}
+    m_Target: {x: 0.03156371, y: -0.95555484, z: 0.11115792, w: 0.2712653}
     speed: 2
-    m_Value: {x: -0.03318963, y: 0.9528791, z: -0.2794912, w: -0.11315734}
+    m_Value: {x: 0.031321, y: -0.9553018, z: 0.10967638, w: 0.2727426}
   m_Size:
-    m_Target: 6.1398935
+    m_Target: 6.6800995
     speed: 2
-    m_Value: 6.1398935
+    m_Value: 6.6800995
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1244,7 +1244,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: ae060000
       m_LastClickedID: 0
       m_ExpandedIDs: 36fbffff
       m_RenameOverlay:
