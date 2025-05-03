@@ -1,17 +1,40 @@
 using UnityEngine;
 
-
 public class ControlaJogador : MonoBehaviour
 {
     public float velocidade = 10f;
-    // Update is called once per frame
+    private Animator animator;
+
+    void Start()
+    {
+        // Cache do componente Animator para evitar chamadas repetitivas
+        animator = GetComponent<Animator>();
+    }
+
     void Update()
     {
+        // Captura dos eixos de entrada
         float eixoX = Input.GetAxis("Horizontal");
         float eixoZ = Input.GetAxis("Vertical");
 
+        // Calcula a direção do movimento
         Vector3 direcao = new Vector3(eixoX, 0, eixoZ);
 
-        transform.Translate(direcao * velocidade * Time.deltaTime);
+        // Movimenta o jogador
+        Mover(direcao);
+
+        // Atualiza o estado da animação
+        AtualizarAnimacao(direcao);
+    }
+
+    private void Mover(Vector3 direcao)
+    {
+        transform.Translate(direcao * velocidade * Time.deltaTime, Space.World);
+    }
+
+    private void AtualizarAnimacao(Vector3 direcao)
+    {
+        bool estaMovendo = direcao != Vector3.zero;
+        animator.SetBool("Movendo", estaMovendo);
     }
 }
