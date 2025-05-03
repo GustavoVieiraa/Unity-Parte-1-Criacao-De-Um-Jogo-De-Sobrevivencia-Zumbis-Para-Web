@@ -1,7 +1,9 @@
 using UnityEngine;
 
+
 public class ControlaJogador : MonoBehaviour
 {
+    public float velocidade = 10f;
     // Update is called once per frame
     void Update()
     {
@@ -10,6 +12,6 @@ public class ControlaJogador : MonoBehaviour
 
         Vector3 direcao = new Vector3(eixoX, 0, eixoZ);
 
-        transform.Translate(direcao);
+        transform.Translate(direcao * velocidade * Time.deltaTime);
     }
 }
