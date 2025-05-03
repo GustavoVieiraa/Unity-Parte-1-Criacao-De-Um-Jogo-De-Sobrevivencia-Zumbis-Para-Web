@@ -372,6 +372,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/Scripts/ControlaCamera.cs"
+"Assets/Scripts/ControlaInimigo.cs"
 "Assets/Scripts/ControlaJogador.cs"
 -langversion:9.0
 /deterministic

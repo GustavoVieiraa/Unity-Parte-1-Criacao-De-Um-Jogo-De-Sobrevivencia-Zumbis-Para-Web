@@ -131,6 +131,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Zumbi (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3324266015960833, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: Jogador
+      value: 
+      objectReference: {fileID: 1761315993}
+    - target: {fileID: 3324266015960833, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: jogador
+      value: 
+      objectReference: {fileID: 1761315993}
     - target: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
       propertyPath: m_LocalPosition.x
       value: -16.950026
@@ -586,6 +594,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Zumbi
       objectReference: {fileID: 0}
+    - target: {fileID: 3324266015960833, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: Jogador
+      value: 
+      objectReference: {fileID: 1761315993}
+    - target: {fileID: 3324266015960833, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: jogador
+      value: 
+      objectReference: {fileID: 1761315993}
     - target: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.366793
